@@ -1,0 +1,69 @@
+<div class="bootstrap-wrapper">
+  <div class="container mt">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="container text-center">
+          <img class="img-fluid" style="width:100px" src="/assets/reg.png"  alt="" />
+        </div>
+        <h1 class="text-center">Register here </h1>
+
+        <form action="">
+
+          <mat-form-field class="full-width">
+            <mat-label>Name</mat-label>
+            <input type="text" matInput />
+          </mat-form-field>
+
+          <mat-form-field class="full-width">
+            <mat-label>Date Of Birth</mat-label>
+            <input type="date" matInput />
+          </mat-form-field>
+
+          <mat-form-field class="full-width">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput />
+          </mat-form-field>
+
+          <mat-form-field class="full-width">
+            <mat-label>Username</mat-label>
+            <input type="text" matInput />
+          </mat-form-field>
+
+          <mat-form-field class="full-width">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput />
+          </mat-form-field>
+
+          <mat-form-field class="full-width">
+            <mat-label>Country</mat-label>
+            <select matNativeControl id="country">
+              <option value="" disabled selected>Select Country</option>
+              <option value="Ind">India</option>
+              <option value="Gr">Germany</option>
+              <option value="USA">United States</option>
+              <option value="UK">United Kingdom</option>
+              <!-- Add more countries and corresponding values as needed -->
+            </select>
+          </mat-form-field>
+
+
+              <mat-form-field class="full-width">
+                <mat-label>securityQuestion</mat-label>
+                <select matNativeControl id="securityQuestion">
+                  <option value="" disabled selected>Select a Security Question</option>
+                  <option value="1">email</option>
+                  <option value="2">text</option>
+                  <option value="3">WhatsApp</option>
+                  <!-- Add more security questions and corresponding values as needed -->
+                </select>
+          </mat-form-field>
+
+          <div class="container text-center">
+            <button type="submit" mat-raised-button color="primary">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

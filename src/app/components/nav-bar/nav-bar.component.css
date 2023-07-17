@@ -1,0 +1,7 @@
+.nav-item {
+  margin-left: 10px; /* Adjust the value to shift the component as desired */
+}
+
+.example-spacer{
+    flex:1 1 auto;
+}
